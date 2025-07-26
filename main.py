@@ -23,7 +23,9 @@ def main():
     part2.seaborn_settings()
 
     part2.barplots(charge_counts, charge_counts_by_offense)
-    part2.cat_plots(charge_counts, pred_universe)  part2.histograms(pred_universe)
+    part2.cat_plots(charge_counts, pred_universe)  
+
+    part2.histograms(pred_universe)
     part2.scatterplot(pred_universe)
 
     ##  PART 3: BAR PLOTS AND HISTOGRAMS  ## 
